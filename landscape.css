@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+    background-color: #E6EFF6;
+    font-family: 'Karla', sans-serif;
+}
+
+#conteiner {
+    display: grid;
+    border-radius: 7px;
+    
+}
+
+#boxJuntamento {
+    display: flex;
+}
+
+#boxMeio,#boxFim {
+    width: 50%;
+    padding-left: 10vw;
+}
+
+#boxMeio {
+    background-color: hsl(179, 62%, 43%);
+}
+
+#boxCima {
+    width: 90%;
+    background-color: white;
+    padding: 8vh 0px 10vh 10vw;
+}
+
+#boxFim {
+    background-color: #4ABEBD;
+}
+
+h2 {
+    color: hsl(179, 62%, 43%);
+}
+
+h3 {
+    color: white;
+}
+
+#subtitle {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+}
+
+#valor {
+    font-size: 4vw;
+    color: white;
+}
+
+#mes {
+    color: #9098ae;
+    line-height: 21vh;
+}
+
+#boxValor {
+    display: inline-flex;
+    width: 33vw;
+    justify-content: space-around;
+}
+
+button {
+    width: 33vw;
+    height: 10vh;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+}
+
