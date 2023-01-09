@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+    padding: 5vh 5vw;
+    background-color: #E6EFF6;
+    font-family: 'Karla', sans-serif;
+}
+
+h2 {
+    color: hsl(179, 62%, 43%);
+}
+
+h3 {
+    color: white;
+}
+
+#subtitle {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+}
+
+#valor {
+    font-size: 10vw;
+    color: white;
+}
+
+#mes {
+    color: #9098ae;
+    line-height: 8vh;
+}
+
+#boxValor {
+    display: inline-flex;
+    width: 43vw;
+    justify-content: space-around;
+}
+
+#boxCima {
+    background-color: white;
+    border-radius: 7px 7px 0px 0px;
+    padding: 0px 5vw 0px 5vw;
+}
+
+#boxMeio {
+    background-color: hsl(179, 62%, 43%);
+    padding: 0px 5vw 5vh 5vw;
+}
+
+#conteiner {
+    display: grid;
+}
+
+button {
+    width: 70vw;
+    height: 10vh;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+}
+
+#boxCima p {
+    line-height: 5vh;
+}
+
+#incentivo {
+    color: #9098ae;
+}
+
+#boxButton {
+    text-align: center;
+}
+
+#boxFim {
+    border-radius: 0px 0px 7px 7px;
+    background-color: #4ABEBD;
+    padding: 0px 5vw 3vh 5vw;
+}
+
+#boxFim p {
+    line-height: 1vh;
+}
+
+#boxJuntamento {
+
+}
+
+#boxMeio,#boxFim {
+    padding-top: 4vh;
+}
